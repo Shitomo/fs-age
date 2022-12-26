@@ -6,6 +6,6 @@ encrypt:
 
 .PHONY: decrypt
 decrypt:
-	age --decrypt -i key.txt $(I_FILE) > $(O_FILE)
+	age --decrypt -i secret.txt $(I_FILE) > $(O_FILE)
 	
 
